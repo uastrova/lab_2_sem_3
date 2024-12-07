@@ -166,31 +166,10 @@
 		<Unit filename="C:/c++Programs/qt_test/qt_test/Sequence.h">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/c++Programs/qt_test/qt_test/choosedatasource.cpp">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/c++Programs/qt_test/qt_test/choosedatasource.h">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/c++Programs/qt_test/qt_test/choosesortingmethod.cpp">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/c++Programs/qt_test/qt_test/choosesortingmethod.h">
-			<Option target="lab2"/>
-		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/cmake-build-debug/lab2_autogen/mocs_compilation.cpp">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/c++Programs/qt_test/qt_test/enternumberofbooks.cpp">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/c++Programs/qt_test/qt_test/enternumberofbooks.h">
-			<Option target="lab2"/>
-		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/main.cpp">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/c++Programs/qt_test/qt_test/mainwindow.h">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/tests.h">

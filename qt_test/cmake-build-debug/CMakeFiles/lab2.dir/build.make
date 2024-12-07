@@ -98,67 +98,16 @@ CMakeFiles/lab2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++Programs\qt_test\qt_test\main.cpp -o CMakeFiles\lab2.dir\main.cpp.s
 
-CMakeFiles/lab2.dir/choosedatasource.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/choosedatasource.cpp.obj: CMakeFiles/lab2.dir/includes_CXX.rsp
-CMakeFiles/lab2.dir/choosedatasource.cpp.obj: C:/c++Programs/qt_test/qt_test/choosedatasource.cpp
-CMakeFiles/lab2.dir/choosedatasource.cpp.obj: CMakeFiles/lab2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++Programs\qt_test\qt_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab2.dir/choosedatasource.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab2.dir/choosedatasource.cpp.obj -MF CMakeFiles\lab2.dir\choosedatasource.cpp.obj.d -o CMakeFiles\lab2.dir\choosedatasource.cpp.obj -c C:\c++Programs\qt_test\qt_test\choosedatasource.cpp
-
-CMakeFiles/lab2.dir/choosedatasource.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab2.dir/choosedatasource.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++Programs\qt_test\qt_test\choosedatasource.cpp > CMakeFiles\lab2.dir\choosedatasource.cpp.i
-
-CMakeFiles/lab2.dir/choosedatasource.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/choosedatasource.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++Programs\qt_test\qt_test\choosedatasource.cpp -o CMakeFiles\lab2.dir\choosedatasource.cpp.s
-
-CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj: CMakeFiles/lab2.dir/includes_CXX.rsp
-CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj: C:/c++Programs/qt_test/qt_test/choosesortingmethod.cpp
-CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj: CMakeFiles/lab2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++Programs\qt_test\qt_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj -MF CMakeFiles\lab2.dir\choosesortingmethod.cpp.obj.d -o CMakeFiles\lab2.dir\choosesortingmethod.cpp.obj -c C:\c++Programs\qt_test\qt_test\choosesortingmethod.cpp
-
-CMakeFiles/lab2.dir/choosesortingmethod.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab2.dir/choosesortingmethod.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++Programs\qt_test\qt_test\choosesortingmethod.cpp > CMakeFiles\lab2.dir\choosesortingmethod.cpp.i
-
-CMakeFiles/lab2.dir/choosesortingmethod.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/choosesortingmethod.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++Programs\qt_test\qt_test\choosesortingmethod.cpp -o CMakeFiles\lab2.dir\choosesortingmethod.cpp.s
-
-CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj: CMakeFiles/lab2.dir/includes_CXX.rsp
-CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj: C:/c++Programs/qt_test/qt_test/enternumberofbooks.cpp
-CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj: CMakeFiles/lab2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++Programs\qt_test\qt_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj -MF CMakeFiles\lab2.dir\enternumberofbooks.cpp.obj.d -o CMakeFiles\lab2.dir\enternumberofbooks.cpp.obj -c C:\c++Programs\qt_test\qt_test\enternumberofbooks.cpp
-
-CMakeFiles/lab2.dir/enternumberofbooks.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab2.dir/enternumberofbooks.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++Programs\qt_test\qt_test\enternumberofbooks.cpp > CMakeFiles\lab2.dir\enternumberofbooks.cpp.i
-
-CMakeFiles/lab2.dir/enternumberofbooks.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/enternumberofbooks.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++Programs\qt_test\qt_test\enternumberofbooks.cpp -o CMakeFiles\lab2.dir\enternumberofbooks.cpp.s
-
 # Object files for target lab2
 lab2_OBJECTS = \
 "CMakeFiles/lab2.dir/lab2_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/lab2.dir/main.cpp.obj" \
-"CMakeFiles/lab2.dir/choosedatasource.cpp.obj" \
-"CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj" \
-"CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj"
+"CMakeFiles/lab2.dir/main.cpp.obj"
 
 # External object files for target lab2
 lab2_EXTERNAL_OBJECTS =
 
 lab2.exe: CMakeFiles/lab2.dir/lab2_autogen/mocs_compilation.cpp.obj
 lab2.exe: CMakeFiles/lab2.dir/main.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/choosedatasource.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj
 lab2.exe: CMakeFiles/lab2.dir/build.make
 lab2.exe: C:/Mingw64/mingw64/lib/libQt6Widgets.a
 lab2.exe: C:/Mingw64/mingw64/lib/libQt6Gui.a
@@ -166,7 +115,7 @@ lab2.exe: C:/Mingw64/mingw64/lib/libQt6Core.a
 lab2.exe: CMakeFiles/lab2.dir/linkLibs.rsp
 lab2.exe: CMakeFiles/lab2.dir/objects1.rsp
 lab2.exe: CMakeFiles/lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\c++Programs\qt_test\qt_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\c++Programs\qt_test\qt_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

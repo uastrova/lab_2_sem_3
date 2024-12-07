@@ -17,9 +17,9 @@
 
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv); // Инициализация приложения Qt
+    //QApplication app(argc, argv); // Инициализация приложения Qt
 
-    heapsortviztest();
+    testQuickSortYear(20);
 
-    return app.exec(); // Запуск основного цикла приложения
+    //return app.exec(); // Запуск основного цикла приложения
 }

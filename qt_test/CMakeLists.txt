@@ -27,10 +27,6 @@ qt_add_executable(lab2
         Sequence.h
         tests.h
         Generator.h
-        mainwindow.h
-        choosedatasource.cpp
-        choosesortingmethod.cpp
-        enternumberofbooks.cpp
 )
 
 target_link_libraries(lab2 PRIVATE Qt6::Core Qt6::Widgets)
