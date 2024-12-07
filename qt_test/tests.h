@@ -310,15 +310,15 @@ void testBubbleSortYear(int cnt)
 
 void bubblesortviztest()
 {
-    BubbleSort<int, ArraySequenceIterator<int, false>> BubbleSorter;
+BubbleSort<int, ArraySequenceIterator<int, false>> BubbleSorter;
     BubbleSorter.sort_viz();
 }
 
-void quicksortviztest()
-{
-    QuickSort<int, std::vector<int>::iterator> sorter;
-    sorter.sort_viz();
-}
+//void quicksortviztest()
+//{
+ //   QuickSort<int, std::vector<int>::iterator> sorter;
+ //   sorter.sort_viz();
+//}
 
 void heapsortviztest()
 {

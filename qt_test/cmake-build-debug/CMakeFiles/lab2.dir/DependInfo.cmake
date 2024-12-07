@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/c++Programs/qt_test/qt_test/choosedatasource.cpp" "CMakeFiles/lab2.dir/choosedatasource.cpp.obj" "gcc" "CMakeFiles/lab2.dir/choosedatasource.cpp.obj.d"
+  "C:/c++Programs/qt_test/qt_test/choosesortingmethod.cpp" "CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj" "gcc" "CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj.d"
+  "C:/c++Programs/qt_test/qt_test/enternumberofbooks.cpp" "CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj" "gcc" "CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj.d"
   "C:/c++Programs/qt_test/qt_test/cmake-build-debug/lab2_autogen/mocs_compilation.cpp" "CMakeFiles/lab2.dir/lab2_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/lab2.dir/lab2_autogen/mocs_compilation.cpp.obj.d"
   "C:/c++Programs/qt_test/qt_test/main.cpp" "CMakeFiles/lab2.dir/main.cpp.obj" "gcc" "CMakeFiles/lab2.dir/main.cpp.obj.d"
   )

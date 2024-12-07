@@ -141,6 +141,78 @@ lab2_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_autogen.dir\build.make CMakeFiles/lab2_autogen.dir/build
 .PHONY : lab2_autogen/fast
 
+choosedatasource.obj: choosedatasource.cpp.obj
+.PHONY : choosedatasource.obj
+
+# target to build an object file
+choosedatasource.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/choosedatasource.cpp.obj
+.PHONY : choosedatasource.cpp.obj
+
+choosedatasource.i: choosedatasource.cpp.i
+.PHONY : choosedatasource.i
+
+# target to preprocess a source file
+choosedatasource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/choosedatasource.cpp.i
+.PHONY : choosedatasource.cpp.i
+
+choosedatasource.s: choosedatasource.cpp.s
+.PHONY : choosedatasource.s
+
+# target to generate assembly for a file
+choosedatasource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/choosedatasource.cpp.s
+.PHONY : choosedatasource.cpp.s
+
+choosesortingmethod.obj: choosesortingmethod.cpp.obj
+.PHONY : choosesortingmethod.obj
+
+# target to build an object file
+choosesortingmethod.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/choosesortingmethod.cpp.obj
+.PHONY : choosesortingmethod.cpp.obj
+
+choosesortingmethod.i: choosesortingmethod.cpp.i
+.PHONY : choosesortingmethod.i
+
+# target to preprocess a source file
+choosesortingmethod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/choosesortingmethod.cpp.i
+.PHONY : choosesortingmethod.cpp.i
+
+choosesortingmethod.s: choosesortingmethod.cpp.s
+.PHONY : choosesortingmethod.s
+
+# target to generate assembly for a file
+choosesortingmethod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/choosesortingmethod.cpp.s
+.PHONY : choosesortingmethod.cpp.s
+
+enternumberofbooks.obj: enternumberofbooks.cpp.obj
+.PHONY : enternumberofbooks.obj
+
+# target to build an object file
+enternumberofbooks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/enternumberofbooks.cpp.obj
+.PHONY : enternumberofbooks.cpp.obj
+
+enternumberofbooks.i: enternumberofbooks.cpp.i
+.PHONY : enternumberofbooks.i
+
+# target to preprocess a source file
+enternumberofbooks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/enternumberofbooks.cpp.i
+.PHONY : enternumberofbooks.cpp.i
+
+enternumberofbooks.s: enternumberofbooks.cpp.s
+.PHONY : enternumberofbooks.s
+
+# target to generate assembly for a file
+enternumberofbooks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/enternumberofbooks.cpp.s
+.PHONY : enternumberofbooks.cpp.s
+
 lab2_autogen/mocs_compilation.obj: lab2_autogen/mocs_compilation.cpp.obj
 .PHONY : lab2_autogen/mocs_compilation.obj
 
@@ -199,6 +271,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... lab2_autogen
 	@echo ... lab2
+	@echo ... choosedatasource.obj
+	@echo ... choosedatasource.i
+	@echo ... choosedatasource.s
+	@echo ... choosesortingmethod.obj
+	@echo ... choosesortingmethod.i
+	@echo ... choosesortingmethod.s
+	@echo ... enternumberofbooks.obj
+	@echo ... enternumberofbooks.i
+	@echo ... enternumberofbooks.s
 	@echo ... lab2_autogen/mocs_compilation.obj
 	@echo ... lab2_autogen/mocs_compilation.i
 	@echo ... lab2_autogen/mocs_compilation.s

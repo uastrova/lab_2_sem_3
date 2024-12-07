@@ -19,8 +19,7 @@
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv); // Инициализация приложения Qt
 
-    QuickSort<int, std::vector<int>::iterator> sorter; // Создание экземпляра QuickSort
-    sorter.sort_viz(); // Вызов метода для визуализации сортировки
+    heapsortviztest();
 
     return app.exec(); // Запуск основного цикла приложения
 }
