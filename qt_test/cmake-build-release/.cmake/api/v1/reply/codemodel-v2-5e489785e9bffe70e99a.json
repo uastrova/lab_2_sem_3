@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "helloworld",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld-Release-3d9e91f62ddb16b3531b.json",
+					"name" : "helloworld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld_autogen-Release-53517742f6548bf768ce.json",
+					"name" : "helloworld_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld_autogen_timestamp_deps-Release-e28e37a42d4c7a3b4d07.json",
+					"name" : "helloworld_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Grisha/CLionProjects/untitled1/cmake-build-release",
+		"source" : "C:/Users/Grisha/CLionProjects/untitled1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

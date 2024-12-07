@@ -1,0 +1,14 @@
+# ninja log v5
+1	104	7499396464215121	helloworld_autogen/timestamp	aaa3e19b5020c4ee
+1	104	7499396464215121	C:/Users/Grisha/CLionProjects/untitled1/cmake-build-release/helloworld_autogen/mocs_compilation.cpp	aaa3e19b5020c4ee
+1	104	7499396464215121	helloworld_autogen/mocs_compilation.cpp	aaa3e19b5020c4ee
+1	104	7499396464215121	C:/Users/Grisha/CLionProjects/untitled1/cmake-build-release/helloworld_autogen/timestamp	aaa3e19b5020c4ee
+104	139	7499396464795746	CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.obj	5cd5b353751b211e
+106	1070	7499396474111414	CMakeFiles/helloworld.dir/main.cpp.obj	a62208b48817a620
+13	112	7499397351811997	helloworld_autogen/timestamp	aaa3e19b5020c4ee
+13	112	7499397351811997	helloworld_autogen/mocs_compilation.cpp	aaa3e19b5020c4ee
+13	112	7499397351811997	C:/Users/Grisha/CLionProjects/untitled1/cmake-build-release/helloworld_autogen/timestamp	aaa3e19b5020c4ee
+13	112	7499397351811997	C:/Users/Grisha/CLionProjects/untitled1/cmake-build-release/helloworld_autogen/mocs_compilation.cpp	aaa3e19b5020c4ee
+113	141	7499397352111999	CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.obj	df66bad507a0b922
+115	1144	7499397362132423	CMakeFiles/helloworld.dir/main.cpp.obj	200f984f5013f16
+1144	1231	7499397362972423	helloworld.exe	96cadb8ac65d972b

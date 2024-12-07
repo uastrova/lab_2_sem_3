@@ -1,0 +1,4 @@
+C:/c++Programs/qt_test/qt_test/cmake-build-debug/CMakeFiles/lab2.dir
+C:/c++Programs/qt_test/qt_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/c++Programs/qt_test/qt_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/c++Programs/qt_test/qt_test/cmake-build-debug/CMakeFiles/lab2_autogen.dir

@@ -1,0 +1,1 @@
+-I"C:/c++Programs/qt_test/qt_test/cmake-build-debug/lab2_autogen/include" -isystem C:/Mingw64/mingw64/include/QtCore -isystem C:/Mingw64/mingw64/include -isystem "C:/Mingw64/mingw64/mkspecs/win32-g++" -isystem C:/Mingw64/mingw64/include/QtWidgets -isystem C:/Mingw64/mingw64/include/QtGui
