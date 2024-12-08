@@ -15,11 +15,11 @@
 #include "Generator.h"
 #include "BookCardComporator.h"
 
+#include "mainwindow.h"
 
 int main(int argc, char *argv[]) {
-    //QApplication app(argc, argv); // Инициализация приложения Qt
-
-    testQuickSortYear(20);
-
-    //return app.exec(); // Запуск основного цикла приложения
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+    return a.exec();
 }

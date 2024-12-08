@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab2.dir/lab2_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/lab2.dir/main.cpp.obj"
   "CMakeFiles/lab2.dir/main.cpp.obj.d"
+  "CMakeFiles/lab2.dir/mainwindow.cpp.obj"
+  "CMakeFiles/lab2.dir/mainwindow.cpp.obj.d"
   "lab2.exe"
   "lab2.exe.manifest"
   "lab2.pdb"

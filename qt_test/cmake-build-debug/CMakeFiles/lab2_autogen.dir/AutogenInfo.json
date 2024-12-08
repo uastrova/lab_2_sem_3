@@ -357,6 +357,12 @@
 			null
 		],
 		[
+			"C:/c++Programs/qt_test/qt_test/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
 			"C:/c++Programs/qt_test/qt_test/tests.h",
 			"MU",
 			"EWIEGA46WW/moc_tests.cpp",
@@ -434,7 +440,8 @@
 	"SETTINGS_FILE" : "C:/c++Programs/qt_test/qt_test/cmake-build-debug/CMakeFiles/lab2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/c++Programs/qt_test/qt_test/main.cpp", "MU", null ]
+		[ "C:/c++Programs/qt_test/qt_test/main.cpp", "MU", null ],
+		[ "C:/c++Programs/qt_test/qt_test/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
