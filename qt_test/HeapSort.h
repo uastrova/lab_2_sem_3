@@ -55,58 +55,6 @@ private:
             heapify(begin, size, largest, comparator); // Recursively heapify the affected subtree
         }
     }
-
-public:
-    void sort_viz()
-    {
-        // Генерация случайных чисел от 1 до 99
-        std::random_device rd;
-        std::uniform_int_distribution<int> dist(1, 99);
-        data.resize(100);
-        for (int& val : data)
-        {
-            val = dist(rd);
-        }
-
-        // Создание и настройка окна для визуализации
-        auto* window = new QWidget();
-        window->setWindowTitle("Heap Sort Visualization");
-        window->resize(800, 600);
-        window->show();
-
-        // Таймер для обновления визуализации
-        QTimer* timer = new QTimer(window);
-        QObject::connect(timer, &QTimer::timeout, [this, window, timer]() {
-            if (currentIndex < data.size()) {
-                // Визуализация текущего состояния массива
-                visualize(window);
-                currentIndex++;
-            } else {
-                timer->stop(); // Остановка таймера после завершения сортировки
-                delete timer;  // Освобождение памяти
-            }
-        });
-        timer->start(100); // Запуск таймера с интервалом 100 мс
-
-        // Запуск сортировки
-        sort(data.begin(), data.end(), [](const T& a, const T& b) { return a < b; });
-    }
-
-    void visualize(QWidget* window) {
-        QPainter painter(window);
-        int barWidth = window->width() / data.size();
-        for (size_t i = 0; i < data.size(); ++i) {
-            if (i < currentIndex) {
-                painter.setBrush(Qt::green); // Зеленый - отсортированные элементы
-            } else {
-                painter.setBrush(Qt::white); // Белый - неотсортированные элементы
-            }
-
-            int barHeight = static_cast<int>(data[i]) * (window->height() / 100);
-            painter.drawRect(i * barWidth, window->height() - barHeight, barWidth - 1, barHeight);
-        }
-    }
-
 };
 
 

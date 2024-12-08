@@ -12,7 +12,7 @@
 #include <iterator>
 #include <type_traits>
 #include <cstddef>
-#include "Book.h"
+
 template<typename T, bool is_const>
 class ArraySequenceIterator
 {

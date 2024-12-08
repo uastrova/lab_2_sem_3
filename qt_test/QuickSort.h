@@ -51,11 +51,6 @@ private:
 
         return i;
     }
-
-public:
-
-
-
 };
 
 

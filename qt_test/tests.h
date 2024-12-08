@@ -308,11 +308,7 @@ void testBubbleSortYear(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void bubblesortviztest()
-{
-BubbleSort<int, ArraySequenceIterator<int, false>> BubbleSorter;
-    BubbleSorter.sort_viz();
-}
+
 
 //void quicksortviztest()
 //{
@@ -320,11 +316,6 @@ BubbleSort<int, ArraySequenceIterator<int, false>> BubbleSorter;
  //   sorter.sort_viz();
 //}
 
-void heapsortviztest()
-{
-    HeapSort<int, std::vector<int>::iterator> sorter;
-    sorter.sort_viz();
-}
 
 
 #endif //LAB2_TESTS_H

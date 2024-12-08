@@ -141,6 +141,30 @@ lab2_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_autogen.dir\build.make CMakeFiles/lab2_autogen.dir/build
 .PHONY : lab2_autogen/fast
 
+inputdialog.obj: inputdialog.cpp.obj
+.PHONY : inputdialog.obj
+
+# target to build an object file
+inputdialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/inputdialog.cpp.obj
+.PHONY : inputdialog.cpp.obj
+
+inputdialog.i: inputdialog.cpp.i
+.PHONY : inputdialog.i
+
+# target to preprocess a source file
+inputdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/inputdialog.cpp.i
+.PHONY : inputdialog.cpp.i
+
+inputdialog.s: inputdialog.cpp.s
+.PHONY : inputdialog.s
+
+# target to generate assembly for a file
+inputdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/inputdialog.cpp.s
+.PHONY : inputdialog.cpp.s
+
 lab2_autogen/mocs_compilation.obj: lab2_autogen/mocs_compilation.cpp.obj
 .PHONY : lab2_autogen/mocs_compilation.obj
 
@@ -213,6 +237,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+sortchoicedialog.obj: sortchoicedialog.cpp.obj
+.PHONY : sortchoicedialog.obj
+
+# target to build an object file
+sortchoicedialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialog.cpp.obj
+.PHONY : sortchoicedialog.cpp.obj
+
+sortchoicedialog.i: sortchoicedialog.cpp.i
+.PHONY : sortchoicedialog.i
+
+# target to preprocess a source file
+sortchoicedialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialog.cpp.i
+.PHONY : sortchoicedialog.cpp.i
+
+sortchoicedialog.s: sortchoicedialog.cpp.s
+.PHONY : sortchoicedialog.s
+
+# target to generate assembly for a file
+sortchoicedialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialog.cpp.s
+.PHONY : sortchoicedialog.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -223,6 +271,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... lab2_autogen
 	@echo ... lab2
+	@echo ... inputdialog.obj
+	@echo ... inputdialog.i
+	@echo ... inputdialog.s
 	@echo ... lab2_autogen/mocs_compilation.obj
 	@echo ... lab2_autogen/mocs_compilation.i
 	@echo ... lab2_autogen/mocs_compilation.s
@@ -232,6 +283,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... sortchoicedialog.obj
+	@echo ... sortchoicedialog.i
+	@echo ... sortchoicedialog.s
 .PHONY : help
 
 

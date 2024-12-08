@@ -29,6 +29,10 @@ qt_add_executable(lab2
         Generator.h
         mainwindow.cpp
         mainwindow.h
+        inputdialog.cpp
+        inputdialog.h
+        sortchoicedialog.cpp
+        sortchoicedialog.h
 )
 
 target_link_libraries(lab2 PRIVATE Qt6::Core Qt6::Widgets)

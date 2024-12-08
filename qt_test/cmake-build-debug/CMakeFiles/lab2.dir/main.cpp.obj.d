@@ -365,6 +365,56 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:\c++Programs\qt_test\qt_test\main.cpp \
  C:/Mingw64/mingw64/include/QtCore/qlocale.h \
  C:/Mingw64/mingw64/include/QtCore/qvariant.h \
  C:/Mingw64/mingw64/include/QtGui/qguiapplication_platform.h \
+ C:/Mingw64/mingw64/include/QtCore/QVector \
+ C:/Mingw64/mingw64/include/QtCore/qvector.h \
+ C:/Mingw64/mingw64/include/QtCore/QRandomGenerator \
+ C:/Mingw64/mingw64/include/QtCore/qrandom.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
+ C:/Mingw64/mingw64/include/QtWidgets/QMessageBox \
+ C:/Mingw64/mingw64/include/QtWidgets/qmessagebox.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qdialog.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qwidget.h \
+ C:/Mingw64/mingw64/include/QtGui/qaction.h \
+ C:/Mingw64/mingw64/include/QtGui/qkeysequence.h \
+ C:/Mingw64/mingw64/include/QtGui/qicon.h \
+ C:/Mingw64/mingw64/include/QtGui/qpalette.h \
+ C:/Mingw64/mingw64/include/QtGui/qbrush.h \
+ C:/Mingw64/mingw64/include/QtGui/qfont.h \
+ C:/Mingw64/mingw64/include/QtCore/qendian.h \
+ C:/Mingw64/mingw64/include/QtGui/qfontmetrics.h \
+ C:/Mingw64/mingw64/include/QtGui/qfontinfo.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qsizepolicy.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qdialogbuttonbox.h \
+ C:\c++Programs\qt_test\qt_test\mainwindow.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QMainWindow \
+ C:/Mingw64/mingw64/include/QtWidgets/qmainwindow.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qtabwidget.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QPushButton \
+ C:/Mingw64/mingw64/include/QtWidgets/qpushbutton.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qabstractbutton.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QLabel \
+ C:/Mingw64/mingw64/include/QtWidgets/qlabel.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qframe.h \
+ C:/Mingw64/mingw64/include/QtGui/qpicture.h \
+ C:/Mingw64/mingw64/include/QtCore/qiodevice.h \
+ C:/Mingw64/mingw64/include/QtGui/qtextdocument.h \
+ C:/Mingw64/mingw64/include/QtCore/qurl.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QVBoxLayout \
+ C:/Mingw64/mingw64/include/QtWidgets/qboxlayout.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qlayout.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qlayoutitem.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qboxlayout.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qgridlayout.h \
+ C:\c++Programs\qt_test\qt_test\ArraySequence.h \
+ C:\c++Programs\qt_test\qt_test\Sequence.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
@@ -379,44 +429,22 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:\c++Programs\qt_test\qt_test\main.cpp \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:\c++Programs\qt_test\qt_test\tests.h \
  C:\c++Programs\qt_test\qt_test\Complex.h \
  C:\c++Programs\qt_test\qt_test\Person.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
- C:\c++Programs\qt_test\qt_test\ArraySequence.h \
- C:\c++Programs\qt_test\qt_test\Sequence.h \
- C:\c++Programs\qt_test\qt_test\Book.h \
  C:\c++Programs\qt_test\qt_test\Generator.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h \
- C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
+ C:\c++Programs\qt_test\qt_test\Book.h \
  C:\c++Programs\qt_test\qt_test\ArrayIterator.h \
  C:\c++Programs\qt_test\qt_test\QuickSort.h \
  C:\c++Programs\qt_test\qt_test\HeadSorter.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ranges \
  C:/Mingw64/mingw64/include/QtWidgets/QWidget \
  C:/Mingw64/mingw64/include/QtWidgets/qwidget.h \
- C:/Mingw64/mingw64/include/QtGui/qaction.h \
- C:/Mingw64/mingw64/include/QtGui/qkeysequence.h \
- C:/Mingw64/mingw64/include/QtGui/qicon.h \
- C:/Mingw64/mingw64/include/QtGui/qpalette.h \
- C:/Mingw64/mingw64/include/QtGui/qbrush.h \
- C:/Mingw64/mingw64/include/QtGui/qfont.h \
- C:/Mingw64/mingw64/include/QtCore/qendian.h \
- C:/Mingw64/mingw64/include/QtGui/qfontmetrics.h \
- C:/Mingw64/mingw64/include/QtGui/qfontinfo.h \
- C:/Mingw64/mingw64/include/QtWidgets/qsizepolicy.h \
  C:/Mingw64/mingw64/include/QtCore/QTimer \
  C:/Mingw64/mingw64/include/QtCore/qtimer.h \
  C:/Mingw64/mingw64/include/QtCore/qbasictimer.h \

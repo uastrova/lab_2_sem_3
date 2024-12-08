@@ -7,7 +7,7 @@
 
 
 #pragma once
-#include "Book.h"
+
 template <typename T> class Sequence
 {
 public:

@@ -91,6 +91,16 @@ public:
         return iterator(elements + size);
     }
 
+    const_iterator begin() const noexcept
+    {
+        return const_iterator(elements);
+    }
+
+    const_iterator end() const noexcept
+    {
+        return const_iterator(elements + size);
+    }
+
     value_type GetFirst() const override
     {
         return elements[0];
@@ -100,6 +110,7 @@ public:
     {
         return elements[size - 1];
     }
+
 
     value_type Get(int index) const override
     {

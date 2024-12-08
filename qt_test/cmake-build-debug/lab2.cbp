@@ -169,6 +169,12 @@
 		<Unit filename="C:/c++Programs/qt_test/qt_test/cmake-build-debug/lab2_autogen/mocs_compilation.cpp">
 			<Option target="lab2"/>
 		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/inputdialog.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/inputdialog.h">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/main.cpp">
 			<Option target="lab2"/>
 		</Unit>
@@ -176,6 +182,12 @@
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/mainwindow.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialog.h">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/tests.h">

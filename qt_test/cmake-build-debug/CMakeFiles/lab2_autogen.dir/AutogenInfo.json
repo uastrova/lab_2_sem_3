@@ -357,9 +357,21 @@
 			null
 		],
 		[
+			"C:/c++Programs/qt_test/qt_test/inputdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_inputdialog.cpp",
+			null
+		],
+		[
 			"C:/c++Programs/qt_test/qt_test/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/c++Programs/qt_test/qt_test/sortchoicedialog.h",
+			"MU",
+			"EWIEGA46WW/moc_sortchoicedialog.cpp",
 			null
 		],
 		[
@@ -440,8 +452,10 @@
 	"SETTINGS_FILE" : "C:/c++Programs/qt_test/qt_test/cmake-build-debug/CMakeFiles/lab2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/c++Programs/qt_test/qt_test/inputdialog.cpp", "MU", null ],
 		[ "C:/c++Programs/qt_test/qt_test/main.cpp", "MU", null ],
-		[ "C:/c++Programs/qt_test/qt_test/mainwindow.cpp", "MU", null ]
+		[ "C:/c++Programs/qt_test/qt_test/mainwindow.cpp", "MU", null ],
+		[ "C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

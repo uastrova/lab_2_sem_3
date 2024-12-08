@@ -10,6 +10,7 @@
 #include <QPushButton>
 #include <QLabel>
 #include <QVBoxLayout>
+#include "ArraySequence.h"
 
 class MainWindow : public QMainWindow {
 Q_OBJECT
@@ -21,6 +22,7 @@ public:
 private slots:
     void onNumbersButtonClicked();
     void onBooksButtonClicked();
+    void showSortingResult(const ArraySequence<int> &sequence, const QString &sortMethod);
 
 private:
     QLabel *label;
