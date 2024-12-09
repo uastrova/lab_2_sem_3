@@ -141,6 +141,54 @@ lab2_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2_autogen.dir\build.make CMakeFiles/lab2_autogen.dir/build
 .PHONY : lab2_autogen/fast
 
+BookCardComporator.obj: BookCardComporator.cpp.obj
+.PHONY : BookCardComporator.obj
+
+# target to build an object file
+BookCardComporator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/BookCardComporator.cpp.obj
+.PHONY : BookCardComporator.cpp.obj
+
+BookCardComporator.i: BookCardComporator.cpp.i
+.PHONY : BookCardComporator.i
+
+# target to preprocess a source file
+BookCardComporator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/BookCardComporator.cpp.i
+.PHONY : BookCardComporator.cpp.i
+
+BookCardComporator.s: BookCardComporator.cpp.s
+.PHONY : BookCardComporator.s
+
+# target to generate assembly for a file
+BookCardComporator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/BookCardComporator.cpp.s
+.PHONY : BookCardComporator.cpp.s
+
+Generator.obj: Generator.cpp.obj
+.PHONY : Generator.obj
+
+# target to build an object file
+Generator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/Generator.cpp.obj
+.PHONY : Generator.cpp.obj
+
+Generator.i: Generator.cpp.i
+.PHONY : Generator.i
+
+# target to preprocess a source file
+Generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/Generator.cpp.i
+.PHONY : Generator.cpp.i
+
+Generator.s: Generator.cpp.s
+.PHONY : Generator.s
+
+# target to generate assembly for a file
+Generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/Generator.cpp.s
+.PHONY : Generator.cpp.s
+
 inputdialog.obj: inputdialog.cpp.obj
 .PHONY : inputdialog.obj
 
@@ -261,6 +309,30 @@ sortchoicedialog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialog.cpp.s
 .PHONY : sortchoicedialog.cpp.s
 
+sortchoicedialogBook.obj: sortchoicedialogBook.cpp.obj
+.PHONY : sortchoicedialogBook.obj
+
+# target to build an object file
+sortchoicedialogBook.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialogBook.cpp.obj
+.PHONY : sortchoicedialogBook.cpp.obj
+
+sortchoicedialogBook.i: sortchoicedialogBook.cpp.i
+.PHONY : sortchoicedialogBook.i
+
+# target to preprocess a source file
+sortchoicedialogBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialogBook.cpp.i
+.PHONY : sortchoicedialogBook.cpp.i
+
+sortchoicedialogBook.s: sortchoicedialogBook.cpp.s
+.PHONY : sortchoicedialogBook.s
+
+# target to generate assembly for a file
+sortchoicedialogBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialogBook.cpp.s
+.PHONY : sortchoicedialogBook.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -271,6 +343,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... lab2_autogen
 	@echo ... lab2
+	@echo ... BookCardComporator.obj
+	@echo ... BookCardComporator.i
+	@echo ... BookCardComporator.s
+	@echo ... Generator.obj
+	@echo ... Generator.i
+	@echo ... Generator.s
 	@echo ... inputdialog.obj
 	@echo ... inputdialog.i
 	@echo ... inputdialog.s
@@ -286,6 +364,9 @@ help:
 	@echo ... sortchoicedialog.obj
 	@echo ... sortchoicedialog.i
 	@echo ... sortchoicedialog.s
+	@echo ... sortchoicedialogBook.obj
+	@echo ... sortchoicedialogBook.i
+	@echo ... sortchoicedialogBook.s
 .PHONY : help
 
 

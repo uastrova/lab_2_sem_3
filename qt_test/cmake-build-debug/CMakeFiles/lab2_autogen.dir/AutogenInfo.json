@@ -363,6 +363,12 @@
 			null
 		],
 		[
+			"C:/c++Programs/qt_test/qt_test/inputdialogBooks.h",
+			"MU",
+			"EWIEGA46WW/moc_inputdialogBooks.cpp",
+			null
+		],
+		[
 			"C:/c++Programs/qt_test/qt_test/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -372,6 +378,12 @@
 			"C:/c++Programs/qt_test/qt_test/sortchoicedialog.h",
 			"MU",
 			"EWIEGA46WW/moc_sortchoicedialog.cpp",
+			null
+		],
+		[
+			"C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.h",
+			"MU",
+			"EWIEGA46WW/moc_sortchoicedialogBook.cpp",
 			null
 		],
 		[
@@ -452,10 +464,13 @@
 	"SETTINGS_FILE" : "C:/c++Programs/qt_test/qt_test/cmake-build-debug/CMakeFiles/lab2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/c++Programs/qt_test/qt_test/BookCardComporator.cpp", "MU", null ],
+		[ "C:/c++Programs/qt_test/qt_test/Generator.cpp", "MU", null ],
 		[ "C:/c++Programs/qt_test/qt_test/inputdialog.cpp", "MU", null ],
 		[ "C:/c++Programs/qt_test/qt_test/main.cpp", "MU", null ],
 		[ "C:/c++Programs/qt_test/qt_test/mainwindow.cpp", "MU", null ],
-		[ "C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp", "MU", null ]
+		[ "C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp", "MU", null ],
+		[ "C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

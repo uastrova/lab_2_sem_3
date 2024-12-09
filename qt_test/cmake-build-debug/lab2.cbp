@@ -133,6 +133,9 @@
 		<Unit filename="C:/c++Programs/qt_test/qt_test/Book.h">
 			<Option target="lab2"/>
 		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/BookCardComporator.cpp">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/BookCardComporator.h">
 			<Option target="lab2"/>
 		</Unit>
@@ -146,6 +149,9 @@
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/DefaultComporator.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/Generator.cpp">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/Generator.h">
@@ -175,6 +181,9 @@
 		<Unit filename="C:/c++Programs/qt_test/qt_test/inputdialog.h">
 			<Option target="lab2"/>
 		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/inputdialogBooks.h">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/main.cpp">
 			<Option target="lab2"/>
 		</Unit>
@@ -188,6 +197,12 @@
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialog.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.h">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/tests.h">

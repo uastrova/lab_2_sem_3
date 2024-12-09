@@ -11,6 +11,7 @@
 #include "ArraySequence.h" // Подключите ваш заголовочный файл с определением ArraySequence
 #include "DefaultComporator.h" // Подключите ваш заголовочный файл с определением компараторов
 #include "inputdialog.h"
+#include "sortchoicedialogBook.h"
 //#include "Book.h"
 
 #include <QMessageBox>
@@ -95,6 +96,6 @@ void MainWindow::showSortingResult(const ArraySequence<int> &sequence, const QSt
 
 
 void MainWindow::onBooksButtonClicked() {
-    // Логика для обработки выбора "Книги"
-    label->setText("Вы выбрали: Книги");
+    SortChoiceDialogBook sortDialog(this);
+    sortDialog.exec(); // Показываем диалог выбора сортировки
 }

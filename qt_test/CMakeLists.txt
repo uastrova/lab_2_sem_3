@@ -33,6 +33,11 @@ qt_add_executable(lab2
         inputdialog.h
         sortchoicedialog.cpp
         sortchoicedialog.h
+        sortchoicedialogBook.cpp
+        sortchoicedialogBook.h
+        inputdialogBooks.h
+        Generator.cpp
+        BookCardComporator.cpp
 )
 
 target_link_libraries(lab2 PRIVATE Qt6::Core Qt6::Widgets)

@@ -21,7 +21,7 @@
 #include "BubbleSort.h"
 #include "DefaultComporator.h"
 
-void TestComplexSum()
+inline void TestComplexSum()
 {
     complex test1(2, 4);
     complex test2(1, 3);
@@ -34,7 +34,7 @@ void TestComplexSum()
     assert(test3.GetIm() == 11);
 }
 
-void TestComplexSubtract()
+inline void TestComplexSubtract()
 {
     complex test1(2, 4);
     complex test2(1, 3);
@@ -46,7 +46,7 @@ void TestComplexSubtract()
     assert(test3.GetIm() == -3);
 }
 
-void TestComplexMulti()
+inline void TestComplexMulti()
 {
     complex test1(2, 4);
     complex test2(1, 3);
@@ -58,7 +58,7 @@ void TestComplexMulti()
     assert(test3.GetIm() == -20);
 }
 
-void TestComplexDiv()
+inline void TestComplexDiv()
 {
     complex test1(1, 1);
     complex test2(1, 1);
@@ -67,7 +67,7 @@ void TestComplexDiv()
     assert(test3.GetIm() == 0);
 }
 
-void TestArraySequence()
+inline void TestArraySequence()
 {
     int a[] = {1, 2, 3, 4, 5, 6, 7, 8};
     ArraySequence<int> test(a, 8);
@@ -85,7 +85,7 @@ void TestArraySequence()
     assert(test[5] == 80);
 }
 
-void testQuickSortPages(int cnt)
+inline void testQuickSortPages(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -98,7 +98,7 @@ void testQuickSortPages(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testQuickSortFName(int cnt)
+inline void testQuickSortFName(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -111,7 +111,7 @@ void testQuickSortFName(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testQuickSortSName(int cnt)
+inline void testQuickSortSName(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -124,7 +124,7 @@ void testQuickSortSName(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testQuickSortTitle(int cnt)
+inline void testQuickSortTitle(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -138,7 +138,7 @@ void testQuickSortTitle(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testQuickSortYear(int cnt)
+inline void testQuickSortYear(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -159,7 +159,7 @@ void testQuickSortYear(int cnt)
 
 
 
-void testHeapSortPages(int cnt)
+inline void testHeapSortPages(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -174,7 +174,7 @@ void testHeapSortPages(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testHeapSortFName(int cnt)
+inline void testHeapSortFName(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -189,7 +189,7 @@ void testHeapSortFName(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testHeapSortSName(int cnt)
+inline void testHeapSortSName(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -204,7 +204,7 @@ void testHeapSortSName(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testHeapSortTitle(int cnt)
+inline void testHeapSortTitle(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -219,7 +219,7 @@ void testHeapSortTitle(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testHeapSortYear(int cnt)
+inline void testHeapSortYear(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -243,7 +243,7 @@ void testHeapSortYear(int cnt)
 
 
 
-void testBubbleSortPages(int cnt)
+inline void testBubbleSortPages(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -256,7 +256,7 @@ void testBubbleSortPages(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testBubbleSortFName(int cnt)
+inline void testBubbleSortFName(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -269,7 +269,7 @@ void testBubbleSortFName(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testBubbleSortSName(int cnt)
+inline void testBubbleSortSName(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -282,7 +282,7 @@ void testBubbleSortSName(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testBubbleSortTitle(int cnt)
+inline void testBubbleSortTitle(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
@@ -295,7 +295,7 @@ void testBubbleSortTitle(int cnt)
     PuttingDataToFile(filename_2, a);
 }
 
-void testBubbleSortYear(int cnt)
+inline void testBubbleSortYear(int cnt)
 {
     std::string filename = "C:/c++Programs/qt_test/qt_test/input.csv";
     std::string filename_2 = "C:/c++Programs/qt_test/qt_test/output.csv";
