@@ -34,11 +34,24 @@ public:
             auto *button = new QPushButton(option, this);
             if (option == "Pages") {
                 connect(button, &QPushButton::clicked, this, &SortChoiceDialogBook::onPagesButtonClicked);
-            } else {
-                connect(button, &QPushButton::clicked, this, [this, option]() {
-                    QMessageBox::information(this, "Выбор сортировки", "Вы выбрали сортировку по: " + option);
-                    accept(); // Закрываем диалог
-                });
+            }
+            //else {
+            //    connect(button, &QPushButton::clicked, this, [this, option]() {
+            //        QMessageBox::information(this, "Выбор сортировки", "Вы выбрали сортировку по: " + option);
+            //        accept(); // Закрываем диалог
+            //    });
+            //}
+            if (option == "First author's name") {
+                connect(button, &QPushButton::clicked, this, &SortChoiceDialogBook::onFnameButtonClicked);
+            }
+            if (option == "Second author's name") {
+                connect(button, &QPushButton::clicked, this, &SortChoiceDialogBook::onSnameButtonClicked);
+            }
+            if (option == "Title") {
+                connect(button, &QPushButton::clicked, this, &SortChoiceDialogBook::onTitleButtonClicked);
+            }
+            if (option == "Year of publish") {
+                connect(button, &QPushButton::clicked, this, &SortChoiceDialogBook::onYearButtonClicked);
             }
             layout->addWidget(button);
         }
@@ -48,7 +61,23 @@ public:
 
 private slots:
     void onPagesButtonClicked() {
-        InputCountDialog inputDialog(this);
+        InputCountDialog_pages inputDialog(this);
+        inputDialog.exec(); // Показываем диалог для ввода количества книг
+    }
+    void onFnameButtonClicked() {
+        InputCountDialog_fname inputDialog(this);
+        inputDialog.exec(); // Показываем диалог для ввода количества книг
+    }
+    void onSnameButtonClicked() {
+        InputCountDialog_sname inputDialog(this);
+        inputDialog.exec(); // Показываем диалог для ввода количества книг
+    }
+    void onTitleButtonClicked() {
+        InputCountDialog_title inputDialog(this);
+        inputDialog.exec(); // Показываем диалог для ввода количества книг
+    }
+    void onYearButtonClicked() {
+        InputCountDialog_year inputDialog(this);
         inputDialog.exec(); // Показываем диалог для ввода количества книг
     }
 };

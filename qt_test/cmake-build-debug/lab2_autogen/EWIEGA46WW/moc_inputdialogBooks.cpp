@@ -34,16 +34,16 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSInputCountDialogENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSInputCountDialogENDCLASS = QtMocHelpers::stringData(
-    "InputCountDialog"
+struct qt_meta_stringdata_CLASSInputCountDialog_pagesENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSInputCountDialog_pagesENDCLASS = QtMocHelpers::stringData(
+    "InputCountDialog_pages"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
 #endif // !QT_MOC_HAS_STRINGDATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSInputCountDialogENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSInputCountDialog_pagesENDCLASS[] = {
 
  // content:
       12,       // revision
@@ -59,20 +59,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSInputCountDialogENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject InputCountDialog::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject InputCountDialog_pages::staticMetaObject = { {
     QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_meta_stringdata_CLASSInputCountDialogENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSInputCountDialogENDCLASS,
+    qt_meta_stringdata_CLASSInputCountDialog_pagesENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSInputCountDialog_pagesENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSInputCountDialogENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSInputCountDialog_pagesENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<InputCountDialog, std::true_type>
+        QtPrivate::TypeAndForceComplete<InputCountDialog_pages, std::true_type>
     >,
     nullptr
 } };
 
-void InputCountDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void InputCountDialog_pages::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -80,20 +80,288 @@ void InputCountDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     (void)_a;
 }
 
-const QMetaObject *InputCountDialog::metaObject() const
+const QMetaObject *InputCountDialog_pages::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *InputCountDialog::qt_metacast(const char *_clname)
+void *InputCountDialog_pages::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSInputCountDialogENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSInputCountDialog_pagesENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
-int InputCountDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int InputCountDialog_pages::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSInputCountDialog_fnameENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSInputCountDialog_fnameENDCLASS = QtMocHelpers::stringData(
+    "InputCountDialog_fname"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSInputCountDialog_fnameENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject InputCountDialog_fname::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
+    qt_meta_stringdata_CLASSInputCountDialog_fnameENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSInputCountDialog_fnameENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSInputCountDialog_fnameENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<InputCountDialog_fname, std::true_type>
+    >,
+    nullptr
+} };
+
+void InputCountDialog_fname::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *InputCountDialog_fname::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *InputCountDialog_fname::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSInputCountDialog_fnameENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QDialog::qt_metacast(_clname);
+}
+
+int InputCountDialog_fname::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSInputCountDialog_snameENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSInputCountDialog_snameENDCLASS = QtMocHelpers::stringData(
+    "InputCountDialog_sname"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSInputCountDialog_snameENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject InputCountDialog_sname::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
+    qt_meta_stringdata_CLASSInputCountDialog_snameENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSInputCountDialog_snameENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSInputCountDialog_snameENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<InputCountDialog_sname, std::true_type>
+    >,
+    nullptr
+} };
+
+void InputCountDialog_sname::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *InputCountDialog_sname::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *InputCountDialog_sname::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSInputCountDialog_snameENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QDialog::qt_metacast(_clname);
+}
+
+int InputCountDialog_sname::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSInputCountDialog_titleENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSInputCountDialog_titleENDCLASS = QtMocHelpers::stringData(
+    "InputCountDialog_title"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSInputCountDialog_titleENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject InputCountDialog_title::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
+    qt_meta_stringdata_CLASSInputCountDialog_titleENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSInputCountDialog_titleENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSInputCountDialog_titleENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<InputCountDialog_title, std::true_type>
+    >,
+    nullptr
+} };
+
+void InputCountDialog_title::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *InputCountDialog_title::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *InputCountDialog_title::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSInputCountDialog_titleENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QDialog::qt_metacast(_clname);
+}
+
+int InputCountDialog_title::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSInputCountDialog_yearENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSInputCountDialog_yearENDCLASS = QtMocHelpers::stringData(
+    "InputCountDialog_year"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSInputCountDialog_yearENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject InputCountDialog_year::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
+    qt_meta_stringdata_CLASSInputCountDialog_yearENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSInputCountDialog_yearENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSInputCountDialog_yearENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<InputCountDialog_year, std::true_type>
+    >,
+    nullptr
+} };
+
+void InputCountDialog_year::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *InputCountDialog_year::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *InputCountDialog_year::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSInputCountDialog_yearENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QDialog::qt_metacast(_clname);
+}
+
+int InputCountDialog_year::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
     return _id;
