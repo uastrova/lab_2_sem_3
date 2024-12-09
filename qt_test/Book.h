@@ -7,6 +7,7 @@
 
 #pragma once
 #include <string>
+#include <iostream>
 #include "Sequence.h"
 #include <iostream>
 
@@ -125,20 +126,22 @@ public:
     }
     friend std::ostream &operator<<(std::ostream &out, const BookCard &book)
     {
-        return out << book.ISBN << " " << book.title << " "<< book.authorSecondName << " " << book.authorFirstName << " " << book.pages <<  " "<< book.YearPublish << std::endl;
+        return out << book.ISBN << " " << book.title << " " << book.authorSecondName << " " << book.authorFirstName << " " << book.pages << " " << book.YearPublish << std::endl;
     }
 
     friend std::istream &operator>>(std::istream &in, BookCard &book)
     {
-        std::cout << "Enter first name: ";
+        std::cout << "Enter ISBN: ";
         in >> book.ISBN;
-        std::cout << "Enter middle name: ";
+        std::cout << "Enter title: ";
         in >> book.title;
-        std::cout << "Enter last name: ";
+        std::cout << "Enter author's second name: ";
         in >> book.authorSecondName;
-        std::cout << "Enter id: ";
+        std::cout << "Enter author's first name: ";
         in >> book.authorFirstName;
+        std::cout << "Enter number of pages: ";
         in >> book.pages;
+        std::cout << "Enter year of publication: ";
         in >> book.YearPublish;
         return in;
     }
@@ -169,16 +172,6 @@ public:
 
     //~BookCard() = default;
 
-    ~BookCard()
-    {
-        // Очистка ресурсов (если будет добавлена динамическая память в будущем)
-        ISBN.clear();
-        title.clear();
-        authorSecondName.clear();
-        authorFirstName.clear();
-        pages = 0;
-        YearPublish = 0;
-    }
     friend void GettingDataFromFile(std::string& name, ArraySequence<BookCard>& book);
     friend void PuttingDataToFile(std::string& name, ArraySequence<BookCard>& book);
 };

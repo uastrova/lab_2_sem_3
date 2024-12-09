@@ -1505,6 +1505,7 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:/c++Programs/qt_test/qt_test/main.cpp \
   C:/c++Programs/qt_test/qt_test/mainwindow.h
 
 CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindow.cpp \
+  C:/Mingw64/mingw64/include/QtCore/QProcess \
   C:/Mingw64/mingw64/include/QtCore/QTimer \
   C:/Mingw64/mingw64/include/QtCore/QVector \
   C:/Mingw64/mingw64/include/QtCore/q20functional.h \
@@ -1576,6 +1577,7 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtCore/qoverload.h \
   C:/Mingw64/mingw64/include/QtCore/qpair.h \
   C:/Mingw64/mingw64/include/QtCore/qpoint.h \
+  C:/Mingw64/mingw64/include/QtCore/qprocess.h \
   C:/Mingw64/mingw64/include/QtCore/qprocessordetection.h \
   C:/Mingw64/mingw64/include/QtCore/qrect.h \
   C:/Mingw64/mingw64/include/QtCore/qrefcount.h \
@@ -1663,6 +1665,7 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtGui/qwindowdefs.h \
   C:/Mingw64/mingw64/include/QtGui/qwindowdefs_win.h \
   C:/Mingw64/mingw64/include/QtWidgets/QDialog \
+  C:/Mingw64/mingw64/include/QtWidgets/QInputDialog \
   C:/Mingw64/mingw64/include/QtWidgets/QLabel \
   C:/Mingw64/mingw64/include/QtWidgets/QLineEdit \
   C:/Mingw64/mingw64/include/QtWidgets/QMainWindow \
@@ -1678,6 +1681,7 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtWidgets/qdialogbuttonbox.h \
   C:/Mingw64/mingw64/include/QtWidgets/qframe.h \
   C:/Mingw64/mingw64/include/QtWidgets/qgridlayout.h \
+  C:/Mingw64/mingw64/include/QtWidgets/qinputdialog.h \
   C:/Mingw64/mingw64/include/QtWidgets/qlabel.h \
   C:/Mingw64/mingw64/include/QtWidgets/qlayout.h \
   C:/Mingw64/mingw64/include/QtWidgets/qlayoutitem.h \
@@ -3413,6 +3417,8 @@ C:/Mingw64/mingw64/include/QtCore/qrefcount.h:
 
 C:/Mingw64/mingw64/include/QtCore/qcompilerdetection.h:
 
+C:/Mingw64/mingw64/include/QtWidgets/QInputDialog:
+
 C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h:
 
 C:/Mingw64/mingw64/include/QtCore/qconfig.h:
@@ -3422,6 +3428,8 @@ C:/c++Programs/qt_test/qt_test/Person.h:
 C:/Mingw64/mingw64/include/QtCore/qtversionchecks.h:
 
 C:/Mingw64/mingw64/include/QtCore/qconstructormacros.h:
+
+C:/Mingw64/mingw64/include/QtCore/QProcess:
 
 C:/Mingw64/mingw64/include/QtCore/qcontainerinfo.h:
 
@@ -3591,6 +3599,8 @@ C:/c++Programs/qt_test/qt_test/main.cpp:
 
 C:/Mingw64/mingw64/include/QtGui/qaction.h:
 
+C:/Mingw64/mingw64/include/QtCore/qprocess.h:
+
 C:/Mingw64/mingw64/include/QtGui/qcolor.h:
 
 C:/Mingw64/mingw64/include/QtCore/qcoreapplication_platform.h:
@@ -3742,6 +3752,8 @@ C:/Mingw64/mingw64/include/QtCore/qnativeinterface.h:
 C:/Mingw64/mingw64/include/QtGui/qguiapplication.h:
 
 C:/Mingw64/mingw64/include/QtWidgets/qapplication.h:
+
+C:/Mingw64/mingw64/include/QtWidgets/qinputdialog.h:
 
 C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp:
 
