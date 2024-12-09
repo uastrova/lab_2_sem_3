@@ -38,6 +38,7 @@ qt_add_executable(lab2
         inputdialogBooks.h
         Generator.cpp
         BookCardComporator.cpp
+        showDataDialog.h
 )
 
 target_link_libraries(lab2 PRIVATE Qt6::Core Qt6::Widgets)

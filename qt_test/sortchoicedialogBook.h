@@ -11,6 +11,7 @@
 #include <QPushButton>
 #include <QMessageBox>
 #include "inputdialogBooks.h"
+#include "showDataDialog.h"
 
 class SortChoiceDialogBook : public QDialog {
 Q_OBJECT
@@ -35,12 +36,6 @@ public:
             if (option == "Pages") {
                 connect(button, &QPushButton::clicked, this, &SortChoiceDialogBook::onPagesButtonClicked);
             }
-            //else {
-            //    connect(button, &QPushButton::clicked, this, [this, option]() {
-            //        QMessageBox::information(this, "Выбор сортировки", "Вы выбрали сортировку по: " + option);
-            //        accept(); // Закрываем диалог
-            //    });
-            //}
             if (option == "First author's name") {
                 connect(button, &QPushButton::clicked, this, &SortChoiceDialogBook::onFnameButtonClicked);
             }
@@ -62,23 +57,38 @@ public:
 private slots:
     void onPagesButtonClicked() {
         InputCountDialog_pages inputDialog(this);
-        inputDialog.exec(); // Показываем диалог для ввода количества книг
+        if (inputDialog.exec() == QDialog::Accepted) {
+            DataDialog dataDialog(this);
+            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+        }
     }
     void onFnameButtonClicked() {
         InputCountDialog_fname inputDialog(this);
-        inputDialog.exec(); // Показываем диалог для ввода количества книг
+        if (inputDialog.exec() == QDialog::Accepted) {
+            DataDialog dataDialog(this);
+            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+        }
     }
     void onSnameButtonClicked() {
         InputCountDialog_sname inputDialog(this);
-        inputDialog.exec(); // Показываем диалог для ввода количества книг
+        if (inputDialog.exec() == QDialog::Accepted) {
+            DataDialog dataDialog(this);
+            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+        }
     }
     void onTitleButtonClicked() {
         InputCountDialog_title inputDialog(this);
-        inputDialog.exec(); // Показываем диалог для ввода количества книг
+        if (inputDialog.exec() == QDialog::Accepted) {
+            DataDialog dataDialog(this);
+            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+        }
     }
     void onYearButtonClicked() {
         InputCountDialog_year inputDialog(this);
-        inputDialog.exec(); // Показываем диалог для ввода количества книг
+        if (inputDialog.exec() == QDialog::Accepted) {
+            DataDialog dataDialog(this);
+            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+        }
     }
 };
 

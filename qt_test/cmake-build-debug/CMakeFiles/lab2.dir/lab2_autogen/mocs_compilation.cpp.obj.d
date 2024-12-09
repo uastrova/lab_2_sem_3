@@ -453,8 +453,30 @@ CMakeFiles/lab2.dir/lab2_autogen/mocs_compilation.cpp.obj: \
  C:/Mingw64/mingw64/include/QtWidgets/QMainWindow \
  C:/Mingw64/mingw64/include/QtWidgets/qmainwindow.h \
  C:/Mingw64/mingw64/include/QtWidgets/qtabwidget.h \
+ C:\c++Programs\qt_test\qt_test\cmake-build-debug\lab2_autogen\EWIEGA46WW/moc_showDataDialog.cpp \
+ C:/c++Programs/qt_test/qt_test/showDataDialog.h \
+ C:/Mingw64/mingw64/include/QtCore/QFile \
+ C:/Mingw64/mingw64/include/QtCore/qfile.h \
+ C:/Mingw64/mingw64/include/QtCore/qfiledevice.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
  C:\c++Programs\qt_test\qt_test\cmake-build-debug\lab2_autogen\EWIEGA46WW/moc_sortchoicedialog.cpp \
  C:/c++Programs/qt_test/qt_test/sortchoicedialog.h \
  C:\c++Programs\qt_test\qt_test\cmake-build-debug\lab2_autogen\EWIEGA46WW/moc_sortchoicedialogBook.cpp \
  C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.h \
- C:/c++Programs/qt_test/qt_test/inputdialogBooks.h
+ C:/c++Programs/qt_test/qt_test/inputdialogBooks.h \
+ C:/c++Programs/qt_test/qt_test/showDataDialog.h

@@ -193,6 +193,9 @@
 		<Unit filename="C:/c++Programs/qt_test/qt_test/mainwindow.h">
 			<Option target="lab2"/>
 		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/showDataDialog.h">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp">
 			<Option target="lab2"/>
 		</Unit>

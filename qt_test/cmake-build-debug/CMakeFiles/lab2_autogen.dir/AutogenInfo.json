@@ -375,6 +375,12 @@
 			null
 		],
 		[
+			"C:/c++Programs/qt_test/qt_test/showDataDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_showDataDialog.cpp",
+			null
+		],
+		[
 			"C:/c++Programs/qt_test/qt_test/sortchoicedialog.h",
 			"MU",
 			"EWIEGA46WW/moc_sortchoicedialog.cpp",
