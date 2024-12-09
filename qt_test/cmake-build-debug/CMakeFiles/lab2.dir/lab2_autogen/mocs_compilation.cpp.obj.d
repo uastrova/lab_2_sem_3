@@ -398,5 +398,21 @@ CMakeFiles/lab2.dir/lab2_autogen/mocs_compilation.cpp.obj: \
  C:/Mingw64/mingw64/include/QtWidgets/qtabwidget.h \
  C:/c++Programs/qt_test/qt_test/ArraySequence.h \
  C:/c++Programs/qt_test/qt_test/Sequence.h \
+ C:/c++Programs/qt_test/qt_test/Book.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:/c++Programs/qt_test/qt_test/BookCardComporator.h \
  C:\c++Programs\qt_test\qt_test\cmake-build-debug\lab2_autogen\EWIEGA46WW/moc_sortchoicedialog.cpp \
  C:/c++Programs/qt_test/qt_test/sortchoicedialog.h

@@ -576,6 +576,8 @@ C:/c++Programs/qt_test/qt_test/mainwindow.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h
@@ -597,9 +599,12 @@ C:/c++Programs/qt_test/qt_test/mainwindow.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h
@@ -607,6 +612,7 @@ C:/c++Programs/qt_test/qt_test/mainwindow.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h
@@ -667,6 +673,7 @@ C:/c++Programs/qt_test/qt_test/mainwindow.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception
@@ -679,7 +686,10 @@ C:/c++Programs/qt_test/qt_test/mainwindow.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list
@@ -688,6 +698,7 @@ C:/c++Programs/qt_test/qt_test/mainwindow.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h
@@ -723,6 +734,8 @@ C:/c++Programs/qt_test/qt_test/mainwindow.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h
@@ -768,7 +781,10 @@ C:/c++Programs/qt_test/qt_test/mainwindow.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/x86_64-w64-mingw32/include/time.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/x86_64-w64-mingw32/include/wchar.h
+ mdp:C:/Program Files/JetBrains/CLion2023.3/bin/mingw/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/c++Programs/qt_test/qt_test/ArraySequence.h
+ mdp:C:/c++Programs/qt_test/qt_test/Book.h
+ mdp:C:/c++Programs/qt_test/qt_test/BookCardComporator.h
  mdp:C:/c++Programs/qt_test/qt_test/Sequence.h
  mdp:C:/c++Programs/qt_test/qt_test/cmake-build-debug/lab2_autogen/moc_predefs.h
  mdp:C:/c++Programs/qt_test/qt_test/mainwindow.h

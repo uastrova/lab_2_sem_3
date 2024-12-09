@@ -415,6 +415,7 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:\c++Programs\qt_test\qt_test\main.cpp \
  C:/Mingw64/mingw64/include/QtWidgets/qgridlayout.h \
  C:\c++Programs\qt_test\qt_test\ArraySequence.h \
  C:\c++Programs\qt_test\qt_test\Sequence.h \
+ C:\c++Programs\qt_test\qt_test\Book.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
@@ -429,6 +430,7 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:\c++Programs\qt_test\qt_test\main.cpp \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:\c++Programs\qt_test\qt_test\BookCardComporator.h \
  C:\c++Programs\qt_test\qt_test\Complex.h \
  C:\c++Programs\qt_test\qt_test\Person.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
@@ -438,7 +440,6 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:\c++Programs\qt_test\qt_test\main.cpp \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
- C:\c++Programs\qt_test\qt_test\Book.h \
  C:\c++Programs\qt_test\qt_test\ArrayIterator.h \
  C:\c++Programs\qt_test\qt_test\QuickSort.h \
  C:\c++Programs\qt_test\qt_test\HeadSorter.h \
@@ -452,7 +453,6 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:\c++Programs\qt_test\qt_test\main.cpp \
  C:/Mingw64/mingw64/include/QtGui/qpainter.h \
  C:/Mingw64/mingw64/include/QtGui/qtextoption.h \
  C:/Mingw64/mingw64/include/QtGui/qpen.h \
- C:\c++Programs\qt_test\qt_test\BookCardComporator.h \
  C:\c++Programs\qt_test\qt_test\HeapSort.h \
  C:\c++Programs\qt_test\qt_test\BubbleSort.h \
  C:\c++Programs\qt_test\qt_test\DefaultComporator.h

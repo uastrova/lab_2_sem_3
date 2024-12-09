@@ -20,11 +20,10 @@
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
-
     MainWindow mainWindow;
-    mainWindow.setWindowTitle("Программа для ввода последовательности");
-    mainWindow.resize(600, 500); // Установка размера окна
-    mainWindow.show(); // Показать главное окно
+    mainWindow.setWindowTitle("Программа для сравнения сортировок");
+    mainWindow.resize(600, 500);
+    mainWindow.show();
     return app.exec();
 
 }

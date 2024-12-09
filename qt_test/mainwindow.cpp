@@ -8,15 +8,19 @@
 #include "HeapSort.h"
 #include "QuickSort.h"
 #include "ArrayIterator.h"
-#include "ArraySequence.h" // Подключите ваш заголовочный файл с определением ArraySequence
-#include "DefaultComporator.h" // Подключите ваш заголовочный файл с определением компараторов
+#include "ArraySequence.h"
 #include "inputdialog.h"
-//#include "Book.h"
+#include "Generator.h"
+#include "BookCardComporator.h"
+#include "DefaultComporator.h"
 
+#include <functional>
 #include <QMessageBox>
 #include <QVector>
 #include <QVBoxLayout>
 #include <QTextEdit>
+#include <QInputDialog>
+#include <QProcess>
 
 MainWindow::MainWindow(QWidget *parent)
         : QMainWindow(parent) {
@@ -94,7 +98,8 @@ void MainWindow::showSortingResult(const ArraySequence<int> &sequence, const QSt
 }
 
 
+
 void MainWindow::onBooksButtonClicked() {
-    // Логика для обработки выбора "Книги"
-    label->setText("Вы выбрали: Книги");
+
 }
+
