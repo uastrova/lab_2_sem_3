@@ -26,8 +26,6 @@ public:
         setWindowTitle("Графики сортировок");
         resize(800, 600);
 
-        QVBoxLayout *layout = new QVBoxLayout(this);
-
         // Данные для графиков
         QVector<int> x;
         QVector<double> bubbleTimes, quickTimes;
@@ -61,13 +59,6 @@ public:
         this->x = x;
         this->bubbleTimes = bubbleTimes;
         this->quickTimes = quickTimes;
-
-        // Кнопка закрытия
-        QPushButton *closeButton = new QPushButton("Закрыть", this);
-        layout->addWidget(closeButton);
-        connect(closeButton, &QPushButton::clicked, this, &SortingGraphsDialog::accept);
-
-        setLayout(layout);
     }
 
 protected:
@@ -98,6 +89,22 @@ protected:
             painter.drawLine(mapToX(x[i]), mapToY(quickTimes[i]),
                              mapToX(x[i + 1]), mapToY(quickTimes[i + 1]));
         }
+
+        // Добавляем текст в правом верхнем углу
+        painter.setPen(Qt::black);
+        painter.drawText(width() - 150, 30, "График сортировки:");
+        painter.drawText(width() - 150, 50, "Синий: Bubble Sort");
+        painter.drawText(width() - 150, 70, "Красный: Quick Sort");
+
+        // Рисуем метки на оси Y
+        double maxTime = std::max(*std::max_element(bubbleTimes.begin(), bubbleTimes.end()),
+                                  *std::max_element(quickTimes.begin(), quickTimes.end()));
+        for (int i = 0; i <= 10; ++i) {
+            double yValue = (maxTime / 10) * i;
+            int yPos = mapToY(yValue);
+            painter.drawText(10, yPos, QString::number(yValue, 'f', 1) + " ms");
+            painter.drawLine(45, yPos, 50, yPos); // Рисуем маленькую линию для метки
+        }
     }
 
 private:
@@ -112,7 +119,8 @@ private:
 
     // Преобразование значений Y в пиксели
     int mapToY(double value) {
-        double maxTime = *std::max_element(bubbleTimes.begin(), bubbleTimes.end());
+        double maxTime = std::max(*std::max_element(bubbleTimes.begin(), bubbleTimes.end()),
+                                  *std::max_element(quickTimes.begin(), quickTimes.end()));
         return height() - 50 - (value * (height() - 100) / maxTime);
     }
 };

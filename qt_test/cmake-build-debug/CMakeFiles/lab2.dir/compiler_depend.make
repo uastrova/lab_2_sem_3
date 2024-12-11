@@ -1595,10 +1595,16 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtCore/qcontainerinfo.h \
   C:/Mingw64/mingw64/include/QtCore/qcontainertools_impl.h \
   C:/Mingw64/mingw64/include/QtCore/qcontiguouscache.h \
+  C:/Mingw64/mingw64/include/QtCore/qcoreapplication.h \
+  C:/Mingw64/mingw64/include/QtCore/qcoreapplication_platform.h \
+  C:/Mingw64/mingw64/include/QtCore/qcoreevent.h \
   C:/Mingw64/mingw64/include/QtCore/qdarwinhelpers.h \
   C:/Mingw64/mingw64/include/QtCore/qdatastream.h \
+  C:/Mingw64/mingw64/include/QtCore/qdeadlinetimer.h \
   C:/Mingw64/mingw64/include/QtCore/qdebug.h \
+  C:/Mingw64/mingw64/include/QtCore/qelapsedtimer.h \
   C:/Mingw64/mingw64/include/QtCore/qendian.h \
+  C:/Mingw64/mingw64/include/QtCore/qeventloop.h \
   C:/Mingw64/mingw64/include/QtCore/qexceptionhandling.h \
   C:/Mingw64/mingw64/include/QtCore/qfile.h \
   C:/Mingw64/mingw64/include/QtCore/qfiledevice.h \
@@ -1619,6 +1625,7 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtCore/qlatin1stringview.h \
   C:/Mingw64/mingw64/include/QtCore/qline.h \
   C:/Mingw64/mingw64/include/QtCore/qlist.h \
+  C:/Mingw64/mingw64/include/QtCore/qlocale.h \
   C:/Mingw64/mingw64/include/QtCore/qlogging.h \
   C:/Mingw64/mingw64/include/QtCore/qmalloc.h \
   C:/Mingw64/mingw64/include/QtCore/qmap.h \
@@ -1628,6 +1635,7 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtCore/qmetatype.h \
   C:/Mingw64/mingw64/include/QtCore/qminmax.h \
   C:/Mingw64/mingw64/include/QtCore/qnamespace.h \
+  C:/Mingw64/mingw64/include/QtCore/qnativeinterface.h \
   C:/Mingw64/mingw64/include/QtCore/qnumeric.h \
   C:/Mingw64/mingw64/include/QtCore/qobject.h \
   C:/Mingw64/mingw64/include/QtCore/qobject_impl.h \
@@ -1699,8 +1707,11 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtGui/qfont.h \
   C:/Mingw64/mingw64/include/QtGui/qfontinfo.h \
   C:/Mingw64/mingw64/include/QtGui/qfontmetrics.h \
+  C:/Mingw64/mingw64/include/QtGui/qguiapplication.h \
+  C:/Mingw64/mingw64/include/QtGui/qguiapplication_platform.h \
   C:/Mingw64/mingw64/include/QtGui/qicon.h \
   C:/Mingw64/mingw64/include/QtGui/qimage.h \
+  C:/Mingw64/mingw64/include/QtGui/qinputmethod.h \
   C:/Mingw64/mingw64/include/QtGui/qkeysequence.h \
   C:/Mingw64/mingw64/include/QtGui/qpaintdevice.h \
   C:/Mingw64/mingw64/include/QtGui/qpainter.h \
@@ -1724,6 +1735,7 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtGui/qtransform.h \
   C:/Mingw64/mingw64/include/QtGui/qwindowdefs.h \
   C:/Mingw64/mingw64/include/QtGui/qwindowdefs_win.h \
+  C:/Mingw64/mingw64/include/QtWidgets/QApplication \
   C:/Mingw64/mingw64/include/QtWidgets/QDialog \
   C:/Mingw64/mingw64/include/QtWidgets/QGraphicsRectItem \
   C:/Mingw64/mingw64/include/QtWidgets/QGraphicsScene \
@@ -1739,6 +1751,7 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/Mingw64/mingw64/include/QtWidgets/QWidget \
   C:/Mingw64/mingw64/include/QtWidgets/qabstractbutton.h \
   C:/Mingw64/mingw64/include/QtWidgets/qabstractscrollarea.h \
+  C:/Mingw64/mingw64/include/QtWidgets/qapplication.h \
   C:/Mingw64/mingw64/include/QtWidgets/qboxlayout.h \
   C:/Mingw64/mingw64/include/QtWidgets/qdialog.h \
   C:/Mingw64/mingw64/include/QtWidgets/qdialogbuttonbox.h \
@@ -2039,6 +2052,7 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: C:/c++Programs/qt_test/qt_test/mainwindo
   C:/c++Programs/qt_test/qt_test/Person.h \
   C:/c++Programs/qt_test/qt_test/QuickSort.h \
   C:/c++Programs/qt_test/qt_test/Sequence.h \
+  C:/c++Programs/qt_test/qt_test/SortingGraphsDialog.h \
   C:/c++Programs/qt_test/qt_test/inputdialog.h \
   C:/c++Programs/qt_test/qt_test/inputdialogBooks.h \
   C:/c++Programs/qt_test/qt_test/mainwindow.h \
