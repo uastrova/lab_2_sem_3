@@ -25,11 +25,13 @@ private slots:
     void onNumbersButtonClicked();
     void onBooksButtonClicked();
     void showSortingResult(const ArraySequence<int> &sequence, const QString &sortMethod);
+    void onSortingGraphsButtonClicked();
     //void sortBooks(std::string filename, std::function<bool(const BookCard&, const BookCard&)> comparator);
 private:
     QLabel *label;
     QPushButton *numbersButton;
     QPushButton *booksButton;
+    QPushButton *sortingGraphsButton;
 };
 
 

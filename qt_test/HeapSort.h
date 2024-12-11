@@ -37,6 +37,7 @@ struct HeapSort: public HeadSorter<T, iterator>
     }
 
 private:
+
     void heapify(iterator begin, size_t size, size_t root_index, bool (*comparator)(const T&, const T&)) {
         auto largest = root_index;              // Initialize largest as root
         auto left = 2 * root_index + 1;         // Left child index

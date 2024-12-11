@@ -15,7 +15,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/c++Programs/qt_test/qt_test/main.cpp" "CMakeFiles/lab2.dir/main.cpp.obj" "gcc" "CMakeFiles/lab2.dir/main.cpp.obj.d"
   "C:/c++Programs/qt_test/qt_test/mainwindow.cpp" "CMakeFiles/lab2.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/lab2.dir/mainwindow.cpp.obj.d"
   "C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp" "CMakeFiles/lab2.dir/sortchoicedialog.cpp.obj" "gcc" "CMakeFiles/lab2.dir/sortchoicedialog.cpp.obj.d"
-  "C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.cpp" "CMakeFiles/lab2.dir/sortchoicedialogBook.cpp.obj" "gcc" "CMakeFiles/lab2.dir/sortchoicedialogBook.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

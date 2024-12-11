@@ -29,5 +29,5 @@ SortChoiceDialog::SortChoiceDialog(QWidget *parent)
     layout->addWidget(quickSortButton);
 
     setWindowTitle("Выберите способ сортировки");
-    resize(300, 250);
+    resize(500, 450);
 }

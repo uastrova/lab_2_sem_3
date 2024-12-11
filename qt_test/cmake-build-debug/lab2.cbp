@@ -172,6 +172,9 @@
 		<Unit filename="C:/c++Programs/qt_test/qt_test/Sequence.h">
 			<Option target="lab2"/>
 		</Unit>
+		<Unit filename="C:/c++Programs/qt_test/qt_test/SortingGraphsDialog.h">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/cmake-build-debug/lab2_autogen/mocs_compilation.cpp">
 			<Option target="lab2"/>
 		</Unit>
@@ -200,9 +203,6 @@
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialog.h">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.cpp">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.h">

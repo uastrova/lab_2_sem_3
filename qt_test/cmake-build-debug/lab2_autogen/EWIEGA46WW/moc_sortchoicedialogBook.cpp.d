@@ -139,6 +139,7 @@ C:/c++Programs/qt_test/qt_test/cmake-build-debug/lab2_autogen/EWIEGA46WW/moc_sor
   C:/Mingw64/mingw64/include/QtGui/qkeysequence.h \
   C:/Mingw64/mingw64/include/QtGui/qpaintdevice.h \
   C:/Mingw64/mingw64/include/QtGui/qpainter.h \
+  C:/Mingw64/mingw64/include/QtGui/qpainterpath.h \
   C:/Mingw64/mingw64/include/QtGui/qpalette.h \
   C:/Mingw64/mingw64/include/QtGui/qpen.h \
   C:/Mingw64/mingw64/include/QtGui/qpixelformat.h \
@@ -158,22 +159,30 @@ C:/c++Programs/qt_test/qt_test/cmake-build-debug/lab2_autogen/EWIEGA46WW/moc_sor
   C:/Mingw64/mingw64/include/QtGui/qwindowdefs.h \
   C:/Mingw64/mingw64/include/QtGui/qwindowdefs_win.h \
   C:/Mingw64/mingw64/include/QtWidgets/QDialog \
+  C:/Mingw64/mingw64/include/QtWidgets/QGraphicsRectItem \
+  C:/Mingw64/mingw64/include/QtWidgets/QGraphicsScene \
+  C:/Mingw64/mingw64/include/QtWidgets/QGraphicsView \
   C:/Mingw64/mingw64/include/QtWidgets/QLineEdit \
   C:/Mingw64/mingw64/include/QtWidgets/QMessageBox \
   C:/Mingw64/mingw64/include/QtWidgets/QPushButton \
   C:/Mingw64/mingw64/include/QtWidgets/QVBoxLayout \
   C:/Mingw64/mingw64/include/QtWidgets/QWidget \
   C:/Mingw64/mingw64/include/QtWidgets/qabstractbutton.h \
+  C:/Mingw64/mingw64/include/QtWidgets/qabstractscrollarea.h \
   C:/Mingw64/mingw64/include/QtWidgets/qboxlayout.h \
   C:/Mingw64/mingw64/include/QtWidgets/qdialog.h \
   C:/Mingw64/mingw64/include/QtWidgets/qdialogbuttonbox.h \
   C:/Mingw64/mingw64/include/QtWidgets/qframe.h \
+  C:/Mingw64/mingw64/include/QtWidgets/qgraphicsitem.h \
+  C:/Mingw64/mingw64/include/QtWidgets/qgraphicsscene.h \
+  C:/Mingw64/mingw64/include/QtWidgets/qgraphicsview.h \
   C:/Mingw64/mingw64/include/QtWidgets/qgridlayout.h \
   C:/Mingw64/mingw64/include/QtWidgets/qlayout.h \
   C:/Mingw64/mingw64/include/QtWidgets/qlayoutitem.h \
   C:/Mingw64/mingw64/include/QtWidgets/qlineedit.h \
   C:/Mingw64/mingw64/include/QtWidgets/qmessagebox.h \
   C:/Mingw64/mingw64/include/QtWidgets/qpushbutton.h \
+  C:/Mingw64/mingw64/include/QtWidgets/qscrollarea.h \
   C:/Mingw64/mingw64/include/QtWidgets/qsizepolicy.h \
   C:/Mingw64/mingw64/include/QtWidgets/qtwidgets-config.h \
   C:/Mingw64/mingw64/include/QtWidgets/qtwidgetsexports.h \

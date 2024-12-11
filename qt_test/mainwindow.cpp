@@ -17,6 +17,7 @@
 #include "Generator.h"
 #include "BookCardComporator.h"
 #include "DefaultComporator.h"
+#include "SortingGraphsDialog.h"
 
 
 #include <functional>
@@ -37,16 +38,19 @@ MainWindow::MainWindow(QWidget *parent)
     label = new QLabel("Выберите предмет сортировки", this);
     numbersButton = new QPushButton("Числа", this);
     booksButton = new QPushButton("Книги", this);
+    sortingGraphsButton = new QPushButton("Графики сортировок", this);
 
     // Подключение сигналов к слотам
     connect(numbersButton, &QPushButton::clicked, this, &MainWindow::onNumbersButtonClicked);
     connect(booksButton, &QPushButton::clicked, this, &MainWindow::onBooksButtonClicked);
+    connect(sortingGraphsButton, &QPushButton::clicked, this, &MainWindow::onSortingGraphsButtonClicked);
 
     // Установка компоновки
     QVBoxLayout *layout = new QVBoxLayout(centralWidget);
     layout->addWidget(label);
     layout->addWidget(numbersButton);
     layout->addWidget(booksButton);
+    layout->addWidget(sortingGraphsButton);
 
     setWindowTitle("Сравнение алгоритмов сортировки");
     resize(300, 200);
@@ -73,7 +77,7 @@ void MainWindow::onNumbersButtonClicked() {
 
         // Открываем диалог выбора способа сортировки
         SortChoiceDialog sortDialog(this);
-        connect(&sortDialog, &SortChoiceDialog::sortChosen, this, [this, &sequence](const QString &sortMethod) {
+        connect(&sortDialog, &SortChoiceDialog::sortChosen, this, [this, &sequence](const QString &sortMethod){
             if (sortMethod == "BubbleSort") {
                 BubbleSort<int, ArraySequence<int>::iterator> bubbleSort;
                 bubbleSort.sort(sequence.begin(), sequence.end(), DefaultComparator<int>);
@@ -81,11 +85,11 @@ void MainWindow::onNumbersButtonClicked() {
             } else if (sortMethod == "HeapSort") {
                 HeapSort<int, ArraySequence<int>::iterator> heapSort;
                 heapSort.sort(sequence.begin(), sequence.end(), DefaultComparator<int>);
-                showSortingResult(sequence, "Heap Sort");
+                showSortingResult(sequence, "HeapSort");
             } else if (sortMethod == "QuickSort") {
                 QuickSort<int, ArraySequence<int>::iterator> quickSort;
                 quickSort.sort(sequence.begin(), sequence.end(), DefaultComparator<int>);
-                showSortingResult(sequence, "Quick Sort");
+                showSortingResult(sequence, "QuickSort");
             }
         });
 
@@ -102,13 +106,15 @@ void MainWindow::showSortingResult(const ArraySequence<int> &sequence, const QSt
     QMessageBox::information(this, sortMethod, "Отсортированная последовательность: " + result);
 }
 
-
-
 void MainWindow::onBooksButtonClicked() {
     SortChoiceDialogBook sortDialog(this);
-    sortDialog.exec(); // Показываем диалог выбора сортировки
+    sortDialog.exec();
 }
 
+void MainWindow::onSortingGraphsButtonClicked(){
+    SortingGraphsDialog *graphsDialog = new SortingGraphsDialog(this);
+    graphsDialog->exec();
+};
 
 
 

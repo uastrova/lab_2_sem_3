@@ -357,6 +357,12 @@
 			null
 		],
 		[
+			"C:/c++Programs/qt_test/qt_test/SortingGraphsDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_SortingGraphsDialog.cpp",
+			null
+		],
+		[
 			"C:/c++Programs/qt_test/qt_test/inputdialog.h",
 			"MU",
 			"EWIEGA46WW/moc_inputdialog.cpp",
@@ -475,8 +481,7 @@
 		[ "C:/c++Programs/qt_test/qt_test/inputdialog.cpp", "MU", null ],
 		[ "C:/c++Programs/qt_test/qt_test/main.cpp", "MU", null ],
 		[ "C:/c++Programs/qt_test/qt_test/mainwindow.cpp", "MU", null ],
-		[ "C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp", "MU", null ],
-		[ "C:/c++Programs/qt_test/qt_test/sortchoicedialogBook.cpp", "MU", null ]
+		[ "C:/c++Programs/qt_test/qt_test/sortchoicedialog.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

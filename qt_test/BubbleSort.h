@@ -17,6 +17,7 @@
 #include <QWidget>
 #include <QPainter>
 #include <QTimer>
+#include <QGraphicsRectItem>
 
 
 template<typename T, typename iterator>
@@ -34,7 +35,6 @@ struct BubbleSort : public HeadSorter<T, iterator>
             }
         }
     }
-
 };
 
 

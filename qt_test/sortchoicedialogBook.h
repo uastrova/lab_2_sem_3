@@ -59,35 +59,35 @@ private slots:
         InputCountDialog_pages inputDialog(this);
         if (inputDialog.exec() == QDialog::Accepted) {
             DataDialog dataDialog(this);
-            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+            dataDialog.exec();
         }
     }
     void onFnameButtonClicked() {
         InputCountDialog_fname inputDialog(this);
         if (inputDialog.exec() == QDialog::Accepted) {
             DataDialog dataDialog(this);
-            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+            dataDialog.exec();
         }
     }
     void onSnameButtonClicked() {
         InputCountDialog_sname inputDialog(this);
         if (inputDialog.exec() == QDialog::Accepted) {
             DataDialog dataDialog(this);
-            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+            dataDialog.exec();
         }
     }
     void onTitleButtonClicked() {
         InputCountDialog_title inputDialog(this);
         if (inputDialog.exec() == QDialog::Accepted) {
             DataDialog dataDialog(this);
-            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+            dataDialog.exec();
         }
     }
     void onYearButtonClicked() {
         InputCountDialog_year inputDialog(this);
         if (inputDialog.exec() == QDialog::Accepted) {
             DataDialog dataDialog(this);
-            dataDialog.exec(); // Показываем диалог с кнопками "Исходные данные" и "Выходные данные"
+            dataDialog.exec();
         }
     }
 };

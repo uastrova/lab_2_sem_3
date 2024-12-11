@@ -32,7 +32,7 @@ void InputDialog::onOkButtonClicked() {
     bool hasInvalidData = false;
 
     for (const QString &item : items) {
-        // Проверка, является ли строка целым числом
+
         QRegularExpression numberRegex(R"(^-?\d+$)");
         if (numberRegex.match(item).hasMatch()) {
             bool ok;
@@ -40,11 +40,11 @@ void InputDialog::onOkButtonClicked() {
             if (ok && number >= INT_MIN && number <= INT_MAX) {
                 hasNumber = true;
             } else {
-                hasInvalidData = true; // Если число не в диапазоне int, это ошибка
+                hasInvalidData = true;
                 break;
             }
         } else {
-            hasInvalidData = true; // Если не целое число, это ошибка
+            hasInvalidData = true;
             break;
         }
     }
@@ -54,10 +54,10 @@ void InputDialog::onOkButtonClicked() {
     } else if (!hasNumber) {
         QMessageBox::warning(this, "Нет чисел", "Входные данные не содержат целых чисел.");
     } else {
-        accept(); // Закрыть диалог с успешным результатом
+        accept();
     }
 }
 
 QString InputDialog::getInput() const {
-    return inputLineEdit->text(); // Возвращаем текст из поля ввода
+    return inputLineEdit->text();
 }

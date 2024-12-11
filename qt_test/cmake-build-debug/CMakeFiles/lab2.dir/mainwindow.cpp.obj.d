@@ -407,6 +407,16 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: \
  C:/Mingw64/mingw64/include/QtWidgets/qdialog.h \
  C:\c++Programs\qt_test\qt_test\BubbleSort.h \
  C:\c++Programs\qt_test\qt_test\HeadSorter.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QGraphicsView \
+ C:/Mingw64/mingw64/include/QtWidgets/qgraphicsview.h \
+ C:/Mingw64/mingw64/include/QtGui/qpainter.h \
+ C:/Mingw64/mingw64/include/QtGui/qtextoption.h \
+ C:/Mingw64/mingw64/include/QtGui/qpen.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qscrollarea.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qgraphicsscene.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QGraphicsScene \
+ C:/Mingw64/mingw64/include/QtWidgets/qgraphicsscene.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
@@ -421,11 +431,12 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: \
  C:/Mingw64/mingw64/include/QtWidgets/qwidget.h \
  C:/Mingw64/mingw64/include/QtGui/QPainter \
  C:/Mingw64/mingw64/include/QtGui/qpainter.h \
- C:/Mingw64/mingw64/include/QtGui/qtextoption.h \
- C:/Mingw64/mingw64/include/QtGui/qpen.h \
  C:/Mingw64/mingw64/include/QtCore/QTimer \
  C:/Mingw64/mingw64/include/QtCore/qtimer.h \
  C:/Mingw64/mingw64/include/QtCore/qbasictimer.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QGraphicsRectItem \
+ C:/Mingw64/mingw64/include/QtWidgets/qgraphicsitem.h \
+ C:/Mingw64/mingw64/include/QtGui/qpainterpath.h \
  C:\c++Programs\qt_test\qt_test\HeapSort.h \
  C:\c++Programs\qt_test\qt_test\QuickSort.h \
  C:\c++Programs\qt_test\qt_test\ArrayIterator.h \
@@ -471,11 +482,24 @@ CMakeFiles/lab2.dir/mainwindow.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+ C:\c++Programs\qt_test\qt_test\SortingGraphsDialog.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QApplication \
+ C:/Mingw64/mingw64/include/QtWidgets/qapplication.h \
+ C:/Mingw64/mingw64/include/QtCore/qcoreapplication.h \
+ C:/Mingw64/mingw64/include/QtCore/qcoreevent.h \
+ C:/Mingw64/mingw64/include/QtCore/qdeadlinetimer.h \
+ C:/Mingw64/mingw64/include/QtCore/qelapsedtimer.h \
+ C:/Mingw64/mingw64/include/QtCore/qeventloop.h \
+ C:/Mingw64/mingw64/include/QtCore/qnativeinterface.h \
+ C:/Mingw64/mingw64/include/QtCore/qcoreapplication_platform.h \
+ C:/Mingw64/mingw64/include/QtGui/qguiapplication.h \
+ C:/Mingw64/mingw64/include/QtGui/qinputmethod.h \
+ C:/Mingw64/mingw64/include/QtCore/qlocale.h \
+ C:/Mingw64/mingw64/include/QtGui/qguiapplication_platform.h \
  C:/Mingw64/mingw64/include/QtCore/QVector \
  C:/Mingw64/mingw64/include/QtCore/qvector.h \
  C:/Mingw64/mingw64/include/QtWidgets/QTextEdit \
  C:/Mingw64/mingw64/include/QtWidgets/qtextedit.h \
- C:/Mingw64/mingw64/include/QtWidgets/qabstractscrollarea.h \
  C:/Mingw64/mingw64/include/QtWidgets/QInputDialog \
  C:/Mingw64/mingw64/include/QtWidgets/qinputdialog.h \
  C:/Mingw64/mingw64/include/QtWidgets/qlineedit.h \

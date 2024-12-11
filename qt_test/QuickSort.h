@@ -16,6 +16,9 @@
 #include <QWidget>
 #include <QTimer>
 #include <QPainter>
+#include <QGraphicsView>
+#include <QGraphicsScene>
+#include <QGraphicsRectItem>
 
 template<typename T, typename iterator>
 struct QuickSort: public HeadSorter<T, iterator>

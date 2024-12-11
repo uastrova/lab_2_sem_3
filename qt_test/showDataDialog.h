@@ -34,7 +34,7 @@ public:
 
 private slots:
     void onInputDataClicked() {
-        QString inputFilePath = "C:/c++Programs/qt_test/qt_test/input.csv"; // Укажите путь к файлу
+        QString inputFilePath = "C:/c++Programs/qt_test/qt_test/input.csv";
         QFile inputFile(inputFilePath);
 
         if (inputFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -50,14 +50,14 @@ private slots:
     }
 
     void onOutputDataClicked() {
-        QString outputFilePath = "C:/c++Programs/qt_test/qt_test/output.csv"; // Укажите путь к файлу
+        QString outputFilePath = "C:/c++Programs/qt_test/qt_test/output.csv";
         QFile outputFile(outputFilePath);
 
         if (outputFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
             QTextStream in(&outputFile);
             QString fileContent = in.readAll();
             outputFile.close();
-            QMessageBox::information(this, "Выходные данные", "Содержимое файла:\n" + fileContent);
+            QMessageBox::information(this, "Выходные данные", "Выходной файл:\n" + fileContent);
         } else {
             QMessageBox::warning(this, "Ошибка", "Не удалось открыть файл с выходными данными.");
         }

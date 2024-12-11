@@ -29,8 +29,8 @@ public:
             bool ok;
             int count = inputField->text().toInt(&ok);
             if (ok && count > 0) {
-                testQuickSortPages(count); // Вызов функции с введенным значением
-                accept(); // Закрываем диалог
+                testQuickSortPages(count);
+                accept();
             } else {
                 QMessageBox::warning(this, "Ошибка", "Пожалуйста, введите корректное количество книг.");
             }
@@ -60,8 +60,8 @@ public:
             bool ok;
             int count = inputField->text().toInt(&ok);
             if (ok && count > 0) {
-                testQuickSortFName(count); // Вызов функции с введенным значением
-                accept(); // Закрываем диалог
+                testQuickSortFName(count);
+                accept();
             } else {
                 QMessageBox::warning(this, "Ошибка", "Пожалуйста, введите корректное количество книг.");
             }
@@ -90,8 +90,8 @@ public:
             bool ok;
             int count = inputField->text().toInt(&ok);
             if (ok && count > 0) {
-                testQuickSortSName(count); // Вызов функции с введенным значением
-                accept(); // Закрываем диалог
+                testQuickSortSName(count);
+                accept();
             } else {
                 QMessageBox::warning(this, "Ошибка", "Пожалуйста, введите корректное количество книг.");
             }
@@ -120,8 +120,8 @@ public:
             bool ok;
             int count = inputField->text().toInt(&ok);
             if (ok && count > 0) {
-                testQuickSortTitle(count); // Вызов функции с введенным значением
-                accept(); // Закрываем диалог
+                testQuickSortTitle(count);
+                accept();
             } else {
                 QMessageBox::warning(this, "Ошибка", "Пожалуйста, введите корректное количество книг.");
             }
@@ -152,8 +152,8 @@ public:
             bool ok;
             int count = inputField->text().toInt(&ok);
             if (ok && count > 0) {
-                testQuickSortYear(count); // Вызов функции с введенным значением
-                accept(); // Закрываем диалог
+                testQuickSortYear(count);
+                accept();
             } else {
                 QMessageBox::warning(this, "Ошибка", "Пожалуйста, введите корректное количество книг.");
             }

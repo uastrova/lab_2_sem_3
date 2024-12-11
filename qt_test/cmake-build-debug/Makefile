@@ -309,30 +309,6 @@ sortchoicedialog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialog.cpp.s
 .PHONY : sortchoicedialog.cpp.s
 
-sortchoicedialogBook.obj: sortchoicedialogBook.cpp.obj
-.PHONY : sortchoicedialogBook.obj
-
-# target to build an object file
-sortchoicedialogBook.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialogBook.cpp.obj
-.PHONY : sortchoicedialogBook.cpp.obj
-
-sortchoicedialogBook.i: sortchoicedialogBook.cpp.i
-.PHONY : sortchoicedialogBook.i
-
-# target to preprocess a source file
-sortchoicedialogBook.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialogBook.cpp.i
-.PHONY : sortchoicedialogBook.cpp.i
-
-sortchoicedialogBook.s: sortchoicedialogBook.cpp.s
-.PHONY : sortchoicedialogBook.s
-
-# target to generate assembly for a file
-sortchoicedialogBook.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sortchoicedialogBook.cpp.s
-.PHONY : sortchoicedialogBook.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -364,9 +340,6 @@ help:
 	@echo ... sortchoicedialog.obj
 	@echo ... sortchoicedialog.i
 	@echo ... sortchoicedialog.s
-	@echo ... sortchoicedialogBook.obj
-	@echo ... sortchoicedialogBook.i
-	@echo ... sortchoicedialogBook.s
 .PHONY : help
 
 

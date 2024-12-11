@@ -443,6 +443,16 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:\c++Programs\qt_test\qt_test\main.cpp \
  C:\c++Programs\qt_test\qt_test\ArrayIterator.h \
  C:\c++Programs\qt_test\qt_test\QuickSort.h \
  C:\c++Programs\qt_test\qt_test\HeadSorter.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QGraphicsView \
+ C:/Mingw64/mingw64/include/QtWidgets/qgraphicsview.h \
+ C:/Mingw64/mingw64/include/QtGui/qpainter.h \
+ C:/Mingw64/mingw64/include/QtGui/qtextoption.h \
+ C:/Mingw64/mingw64/include/QtGui/qpen.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qscrollarea.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Mingw64/mingw64/include/QtWidgets/qgraphicsscene.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QGraphicsScene \
+ C:/Mingw64/mingw64/include/QtWidgets/qgraphicsscene.h \
  C:/Program\ Files/JetBrains/CLion2023.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ranges \
  C:/Mingw64/mingw64/include/QtWidgets/QWidget \
  C:/Mingw64/mingw64/include/QtWidgets/qwidget.h \
@@ -451,8 +461,9 @@ CMakeFiles/lab2.dir/main.cpp.obj: C:\c++Programs\qt_test\qt_test\main.cpp \
  C:/Mingw64/mingw64/include/QtCore/qbasictimer.h \
  C:/Mingw64/mingw64/include/QtGui/QPainter \
  C:/Mingw64/mingw64/include/QtGui/qpainter.h \
- C:/Mingw64/mingw64/include/QtGui/qtextoption.h \
- C:/Mingw64/mingw64/include/QtGui/qpen.h \
+ C:/Mingw64/mingw64/include/QtWidgets/QGraphicsRectItem \
+ C:/Mingw64/mingw64/include/QtWidgets/qgraphicsitem.h \
+ C:/Mingw64/mingw64/include/QtGui/qpainterpath.h \
  C:\c++Programs\qt_test\qt_test\HeapSort.h \
  C:\c++Programs\qt_test\qt_test\BubbleSort.h \
  C:\c++Programs\qt_test\qt_test\DefaultComporator.h
